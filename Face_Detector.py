@@ -7,7 +7,7 @@ trained_face_data = cv2.CascadeClassifier('data\haarcascade_frontalface_default.
 # Extracting the image
 img = cv2.imread("images\sjk1.jpg")
 
-# turning the image to gray scale(back and white)
+# turning the image to gray scale(black and white)
 grayscaled_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 #Detect Faces
